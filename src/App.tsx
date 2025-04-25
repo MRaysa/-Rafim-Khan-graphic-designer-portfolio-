@@ -24,8 +24,8 @@ function App() {
               <Route path="gallery" element={<GalleryPage />} />
               <Route path="contact" element={<ContactPage />} />
             </Route>
-            <Route path="/login" element={<AdminLogin />} />
-            <Route path="/login-dashboard" element={<AdminDashboard />} />
+            <Route path="/admin-login" element={<AdminLogin />} />
+            <Route path="/admin" element={<AdminDashboard />} />
           </Routes>
         </Router>
       </AuthProvider>
